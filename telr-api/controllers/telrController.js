@@ -72,7 +72,7 @@ exports.createTelrPayment = async (req, res) => {
     authkey: TELR_AUTH_KEY,
     order: {
       cartid: cartid,
-      test: "1",
+      test: "0",
       currency: currency,
       description: description,
       ref: orderId,
